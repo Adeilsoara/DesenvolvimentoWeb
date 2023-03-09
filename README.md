@@ -1,7 +1,7 @@
 
 # Aulas de Desenvolvimento Web
 
-Repositório destinado para as aulas de  Desenvolvimento Web I - Foco em conceitos básicos de JavaScritp.
+Repositório destinado para as aulas de  Desenvolvimento Web I - Foco em conceitos básicos de JavaScript.
 
 
 
