@@ -114,5 +114,4 @@ function maiorEMenorNumero() {
   document.write(`Maior é: ${maior} <br>`);
   document.write(`Menor é: ${menor}`);
 }
-
 maiorEMenorNumero();
