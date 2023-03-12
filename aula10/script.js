@@ -9,5 +9,12 @@ let usuario = {
     idade: 18
 };
 
-document.write(usuario.idade)
-document.write(usuario.nome)
+/* document.write(usuario.idade)
+document.write(usuario.nome) */
+
+/* Percorrendo um objeto - for in */
+
+for (const key in usuario) {
+    document.write(key)
+    document.write(usuario[key])
+}
