@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 11 - Eventos em JavaScript</title>
+</head>
+<body onload="carregarPagina()">
+    <!-- Evento - Onclick -->
+    <!-- <button type="button" onclick="ola()">Clique aqui</button> -->
+    <p>Passe o mouse dentro da div para ver o que acontece</p>
+    <!-- Evento onmouseover e oumouseout -->
+    <div onmouseover="style.color='red'" onmouseout="style.color = 'green'">
+        <h2>Dentro da div</h2>
+    </div>
+    <!-- Evento onload -->
+
+    <!-- Evento onblur -->
+    Digite seu nome: <input type="text" id="fname" onblur="mudarTexto()">
+    <script src="script.js"></script>
+</body>
+</html>
