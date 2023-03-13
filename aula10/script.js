@@ -5,29 +5,29 @@
 //let usuario = new Object() "Objeto construtor"
 //Objeto literal -> usando o formato chave:valor -> key:value
 let usuario = {
-    nome: "José",
-    idade: 18
+  nome: "José",
+  idade: 18,
 };
 
 /* document.write(usuario.idade)
 document.write(usuario.nome) */
+/* Find the value of the price property and if it is greater than 100, discount it by 10%. If that’s not the case, 
+discount it by 7%. Update the object with : 
+the new property - discount and the corresponding value (7% or 10%) and the new price. */
 
-//Find the value of the price property and if it is greater than 100, discount it by 10%. If that’s not the case, discount it by 7%. Update the object with :
-
-//the new property - discount and the corresponding value (7% or 10%) and the new price.
 let product = {
-    name: "headphones",
-    price: 100,
-    discount: 0
+  name: "headphones",
+  price: 100,
+  discount: 0,
 };
 if (product.price > 100) {
-  discount = ((product.price / 100) * 10);
-  product.price = (product.price - discount);
+  discount = (product.price / 100) * 10;
+  product.price = product.price - discount;
 } else {
-  discount = ((product.price / 100) * 7);
-  product.price = (product.price - discount);
+  discount = (product.price / 100) * 7;
+  product.price = product.price - discount;
 }
-console.log (product.price);
+console.log(product.price);
 console.log("Updated product:", product);
 
 /* Percorrendo um objeto - for in */
@@ -42,11 +42,11 @@ console.log("Updated product:", product);
 //document.write(JSON.stringify(usuario))
 
 /* Usando o objeto Date() em JavaScript */
-let data = new Date()
-document.write(data, "<br>")
+let data = new Date();
+document.write(data, "<br>");
 //document.write(`<br> A variável  'data' é do tipo: ${typeof(data)}`)
-document.write(data.getTime(), "<br>")
-document.write(Date.now())
+document.write(data.getTime(), "<br>");
+document.write(Date.now());
 //instâncias do objeto Date
 /* let dia = data.getDate()
 document.write(dia)
@@ -58,3 +58,14 @@ let horas = data.getHours()
 document.write(horas)
 let minutos = data.getMinutes()
 document.write(minutos) */
+
+/* Exercício 01 -  Fórmula converter Milessegundos para Dias
+1 segundo possui 1000 milissegundos
+1 hora tem 3600 segundos
+1 dia tem 1000 * 3600 * 24(horas) = 86.400.000 milissegundos
+*/
+let data1 = new Date("12/12/2012");
+let data2 = new Date();
+let diferencaEmTempo = data2.getTime() - data1.getTime();
+
+document.write(`${(diferencaEmTempo / (1000 * 3600 * 24)).toFixed(2)} dias`);
