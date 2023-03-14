@@ -6,18 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 11 - Eventos em JavaScript</title>
 </head>
-<body onload="carregarPagina()">
+<body >
     <!-- Evento - Onclick -->
     <!-- <button type="button" onclick="ola()">Clique aqui</button> -->
     <p>Passe o mouse dentro da div para ver o que acontece</p>
     <!-- Evento onmouseover e oumouseout -->
-    <div onmouseover="style.color='red'" onmouseout="style.color = 'green'">
+   <!--  <div onmouseover="style.color='red'" onmouseout="style.color = 'green'">
         <h2>Dentro da div</h2>
-    </div>
+    </div> -->
     <!-- Evento onload -->
-
+    <!-- onload="carregarPagina()" -->
     <!-- Evento onblur -->
-    Digite seu nome: <input type="text" id="fname" onblur="mudarTexto()">
+    <!-- Digite seu nome: <input type="text" id="fname" onblur="mudarTexto()"> -->
+
+    1ª Número: <input type="number" id="num1"> <br>
+    2ª Número: <input type="number" id="num2"> <br>
+    <button onclick="somar()">Resultado</button>
+    <p class="resultado"></p>
     <script src="script.js"></script>
 </body>
 </html>
