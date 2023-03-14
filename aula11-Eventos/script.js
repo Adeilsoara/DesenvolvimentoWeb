@@ -18,7 +18,7 @@ function mudarTexto() {
   var x = document.getElementById("fname")
   x.value  = x.value.toUpperCase()
 }
-
+/* Manipulação do DOM -> Document Object Model */
 function somar() {
   var num1 = document.getElementById("num1").value
   var num2 = document.getElementById("num2").value
