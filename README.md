@@ -14,6 +14,7 @@ Repositório destinado para as aulas de  Desenvolvimento Web I - Foco em conceit
  - [Age Calculator - Example ](https://dev.to/code_mystery/javascript-age-calculator-calculate-age-from-date-of-birth-o9b)
  - [Regular Expressions ](https://ricardo-reis.medium.com/express%C3%B5es-regulares-javascript-295da6deaee7)
  - [Bootstrap ](https://getbootstrap.com/)
+ - [Layout Bootstrap ](https://designmodo.com/bootstrap-5-layout/)
 
 - Resolução das Listas de Exercícios/Trabalhos
  - [Lista IF/ELSE](https://github.com/Adeilsoara/DesenvolvimentoWeb/blob/master/aula05/script.js)
