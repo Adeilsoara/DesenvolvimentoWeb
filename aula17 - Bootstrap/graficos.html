@@ -53,18 +53,18 @@
             function drawChart() {
                 
                 var data = new google.visualization.DataTable();
-                data.addColumn('string', 'Topo')
+                data.addColumn('string', 'Nome')
                 data.addColumn('number', 'Pedaços')
                 data.addRows([
                     ['Provolone', 3],
-                    ['Baiana', 2],
-                    ['Camarão', 1],
+                    ['Calabresa', 2],
+                    ['Portuguesa', 1],
                 ]);
 
                 var options = {'title': 'Quais os tipos de pizzas?',
-                                'width' :400,
+                                'width' :600,
                                 'height' :300 };
-                var chart = new google.visualization.PieChart(document.getElementById('grafico-pizza'))
+                var chart = new google.visualization.BarChart(document.getElementById('grafico-pizza'))
                 chart.draw(data, options)
             }
         </script>
