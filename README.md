@@ -16,6 +16,7 @@ Repositório destinado para as aulas de  Desenvolvimento Web I - Foco em conceit
  - [Bootstrap ](https://getbootstrap.com/)
  - [Layout Bootstrap ](https://designmodo.com/bootstrap-5-layout/)
  - [Local Storage ](https://medium.com/jaguaribetech/dlskaddaldkslkdlskdlk-333dae8ef9b8)
+ - [Local Storage II ](https://blog.logrocket.com/localstorage-javascript-complete-guide/#what-window-localstorage)
 
 - Resolução das Listas de Exercícios/Trabalhos
  - [Lista IF/ELSE](https://github.com/Adeilsoara/DesenvolvimentoWeb/blob/master/aula05/script.js)
